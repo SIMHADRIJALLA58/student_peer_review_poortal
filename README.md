@@ -15,7 +15,7 @@ Database: MongoDB Atlas (or local database)
 
 1.Clone the repository
 
-git clone https://github.com/your-username/student-peer-review-portal.git
+git clone https://github.com/simhadrijalla58/student-peer-review-portal.git
 cd student-peer-review-portal
 
 2.Create and activate virtual environment
@@ -36,3 +36,11 @@ Replace <your_connection_string> in app.py
 5.Run the application
 
 python app.py
+
+Challenges & Issues Faced:
+
+Handling user login and session management to secure pages.
+Linking submissions and peer reviews correctly in the database.
+Keeping peer reviews anonymous while allowing instructors to monitor.
+Ensuring forms and UI were user-friendly and responsive.
+Fixing bugs to make all features (submit, review, archive) work properly.
